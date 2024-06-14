@@ -12,7 +12,6 @@
     "generate": "node src/scripts/generateContacts.js",
     "add-one": "node src/scripts/addOneContact.js",
     "count": "node src/scripts/countContacts.js",
-    "thanos": "node src/scripts/thanos.js",
     "remove-all": "node src/scripts/removeAllContacts.js",
     "remove-last": "node src/scripts/removeLastContact.js"
   },
