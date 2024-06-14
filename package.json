@@ -7,7 +7,14 @@
   "scripts": {
     "lint": "eslint src/**/*.js",
     "start": "node ./src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "get-all": "node src/scripts/getAllContacts",
+    "generate": "node src/scripts/generateContacts.js",
+    "add-one": "node src/scripts/addOneContact.js",
+    "count": "node src/scripts/countContacts.js",
+    "thanos": "node src/scripts/thanos.js",
+    "remove-all": "node src/scripts/removeAllContacts.js",
+    "remove-last": "node src/scripts/removeLastContact.js"
   },
   "keywords": [],
   "author": "Alexander Repeta <a.repeta@goit.global>",
